@@ -5,9 +5,9 @@ Bu repoyu indirip terminalden reponun olduğu klasöre girin
 [Referans2](https://linuxhint.com/postgresql_docker/)
 
 `sudo curl -L -k "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-\$(uname -m)" -o /usr/local/bin/docker-compose` <br/>
-`sudo chmod +x /usr/local/bin/docker-compose` <br/>
+`sudo chmod +x /usr/local/bin/docker-compose` <br/>g
 `sudo docker-compose up`<br/>
-Çalışmazsa docker yüklü değil demektir<br/>
+Çalışmazsa docker yüklü değil demektir.<br/>
 
 ## Docker Yükleme
 
@@ -28,15 +28,15 @@ Not: bu kod hata verebilir sorun değil.
 
 ## PgAdmin Hazırlığı
 
-tarayıcıdan localhost:5051 'e gir <br/>
-email ve şifre docker-compose.yml dosyasında:
+Tarayıcıdan localhost:5051 'e gir <br/>
+Email ve şifre docker-compose.yml dosyasında:
 <br/>
 *email: pgadmin4@pgadmin.org <br/>
 *şifre: root <br/>
 
 ### Add New Server'a tıkla
 
-istediğiniz bir ismi verip Connection kısmına geçin <br/>
+İstediğiniz bir ismi verip Connection kısmına geçin <br/>
 
 *host: localhost (Çalışmazsa 127.0.0.1 veya 172.17.0.1)
 *post: 5432
