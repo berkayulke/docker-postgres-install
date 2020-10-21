@@ -1,3 +1,5 @@
+Bu repoyu indirip terminalden reponun olduğu klasöre girin
+
 ## Docker Compose Yükleme
 [Referans](https://linuxhint.com/postgresql_docker/)
 
