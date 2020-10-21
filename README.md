@@ -26,6 +26,7 @@ Not: bu kod hata verebilir sorun değil.
 
 tarayıcıdan localhost:5051 'e gir <br/>
 email ve şifre docker-compose.yml dosyasında:
+<br/>
 *email: pgadmin4@pgadmin.org <br/>
 *şifre: root <br/>
 
