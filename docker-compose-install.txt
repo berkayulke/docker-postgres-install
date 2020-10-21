@@ -1,0 +1,46 @@
+referans: https://linuxhint.com/postgresql_docker/
+
+sudo curl -L -k "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+sudo docker-compose up 
+Çalışmazsa docker yüklü değil demektir
+
+Docker yükleme:
+    referans:  https://docs.docker.com/engine/install/ubuntu/
+
+    sudo apt-get remove docker docker-engine docker.io containerd runc
+    Not: bu kod hata verebilir sorun değil.
+    
+    sudo apt-get update
+    sudo apt-get install apt-transport-https curl gnupg-agent software-properties-common
+    sudo apt-get install --reinstall ca-certificates
+    curl -fsSL -k https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+    sudo apt-key fingerprint 0EBFCD88
+
+    sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+    Çalışmaza: sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+    sudo apt-get update
+    sudo apt-get install docker-ce docker-ce-cli containerd.io
+
+    sudo docker-compose up
+
+tarayıcıdan localhost:5051 'e gir
+email ve şifre docker-compose.yml dosyasında:
+email: pgadmin4@pgadmin.org
+şifre: root
+
+Add New Server
+
+istediğiniz bir ismi verip Connection kısmına geçin
+
+host: localhost (Çalışmazsa 127.0.0.1 veya 172.17.0.1)
+post: 5432
+database username ve password docker-compose.yml dosyasında:
+maintanence database: postgres
+username: postgres
+password: postgres
+
+İleride şifre sormaması için save password'u seçebilirsiniz.
+
+Bu bilgileri girip kaydedin.
+Database soldaki servers tabında çıkacaktır.
