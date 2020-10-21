@@ -1,14 +1,11 @@
-# Referans:
-
+## Docker Compose Yükleme
 [Referans](https://linuxhint.com/postgresql_docker/)
-
-## Docker Compose
 
 `sudo curl -L -k "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-\$(uname -m)" -o /usr/local/bin/docker-compose` <br/>
 `sudo docker-compose up`<br/>
 Çalışmazsa docker yüklü değil demektir<br/>
 
-## Docker yükleme
+## Docker Yükleme
 
 [Referans](https://docs.docker.com/engine/install/ubuntu/)<br/>
 
