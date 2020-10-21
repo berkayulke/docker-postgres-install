@@ -37,9 +37,13 @@ istediğiniz bir ismi verip Connection kısmına geçin <br/>
 *post: 5432
 <br/>
 *database username ve password docker-compose.yml dosyasında:
+<br/>
 *maintanence database: postgres
+<br/>
 *username: postgres
+<br/>
 *password: postgres
+<br/>
 
 <br/>
 İleride şifre sormaması için save password'u seçebilirsiniz.
