@@ -15,13 +15,12 @@
 `sudo apt-get remove docker docker-engine docker.io containerd runc`
 Not: bu kod hata verebilir sorun değil.
 `sudo apt-get update` <br/>
-`sudo apt-get install apt-transport-https curl gnupg-agentsoftware-properties-common` <br/>
-Hata verirse:
-`sudo apt-get install --reinstall ca-certificates` <br/>
+`sudo apt-get install apt-transport-https curl gnupg-agentsoftware-properties-common`
+(Hata verirse: `sudo apt-get install --reinstall ca-certificates`) <br/>
 `curl -fsSL -k https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -` <br/>
 `sudo apt-key fingerprint 0EBFCD88` <br/>
-`sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linuxubuntu $(lsb_release -cs) stable"` <br/>
-Çalışmaza: `sudo add-apt-repository "deb [arch=amd64] https://download.dockercom/linux/ubuntu bionic stable"` <br/>
+`sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linuxubuntu $(lsb_release -cs) stable"`
+(Çalışmaza: `sudo add-apt-repository "deb [arch=amd64] https://download.dockercom/linux/ubuntu bionic stable"`) <br/>
 `sudo apt-get update` <br/>
 `sudo apt-get install docker-ce docker-ce-cli containerd.io` <br/>
 `sudo docker-compose up` <br/>
@@ -33,7 +32,7 @@ email ve şifre docker-compose.yml dosyasında:
 *email: pgadmin4@pgadmin.org <br/>
 *şifre: root <br/>
 
-### Add New Server
+### Add New Server'a tıkla
 
 istediğiniz bir ismi verip Connection kısmına geçin <br/>
 
