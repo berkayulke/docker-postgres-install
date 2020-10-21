@@ -10,7 +10,7 @@
 
 ## Docker yükleme
 
-[Referans] (https://docs.docker.com/engine/install/ubuntu/)<br/>
+[Referans](https://docs.docker.com/engine/install/ubuntu/)<br/>
 
 `sudo apt-get remove docker docker-engine docker.io containerd runc`
 Not: bu kod hata verebilir sorun değil.
