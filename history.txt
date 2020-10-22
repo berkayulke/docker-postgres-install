@@ -1,0 +1,15 @@
+    1  sudo apt update
+    2  sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+    3  sudo chmod +x /usr/local/bin/docker-compose
+    5  sudo docker-compose up
+    6  sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+    7  sudo docker-compose up
+    9  sudo apt-get remove docker docker-engine docker.io containerd runc
+   10  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+   11  curl -k -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   12  sudo apt-key fingerprint 0EBFCD88
+   14  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+   16  sudo apt update
+   17  sudo apt-get install docker-ce docker-ce-cli containerd.io
+   18  sudo docker-compose up
+   19  sudo docker-compose up --build
