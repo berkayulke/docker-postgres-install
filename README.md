@@ -16,7 +16,7 @@ Bu repoyu indirip terminalden reponun olduğu klasöre girin
 Mac kullananlar [bu linkten](https://hub.docker.com/editions/community/docker-ce-desktop-mac/) uygulama olarak indirebilir.<br/>
 <br/>
 [Linux Referans](https://docs.docker.com/engine/install/ubuntu/)<br/>
-Linux kullananlar aşağıdaki komutlarla yükelyebilir<br/>
+Linux kullananlar aşağıdaki komutlarla yükleyebilir<br/>
 
 `sudo apt-get remove docker docker-engine docker.io containerd runc`<br/>
 Not: bu kod hata verebilir sorun değil<br/>
