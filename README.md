@@ -35,3 +35,9 @@ Tarayıcıdan localhost:5051 'e gir <br/>
 
 Bu bilgileri girip kaydedin<br/>
 Server soldaki servers tabında çıkacaktır
+
+### Çalıştırma
+
+Docker dosyasının olduğu klasöre terminalden girip <br/>
+`sudo docker-compose up` komutunu çalıştırın. <br/>
+Tarayıcıdan localhost:5051 'e gir <br/>
