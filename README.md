@@ -8,14 +8,17 @@ Bu repoyu indirip terminalden reponun olduğu klasöre girin
 `sudo curl -L -k "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-\$(uname -m)" -o /usr/local/bin/docker-compose` <br/>
 `sudo chmod +x /usr/local/bin/docker-compose` <br/>
 `sudo docker-compose up`<br/>
-Çalışmazsa docker yüklü değil demektir.<br/>
+Çalışmazsa docker yüklü değil demektir<br/>
 
 ## Docker Yükleme
 
-[Referans](https://docs.docker.com/engine/install/ubuntu/)<br/>
+[Mac Referans](https://docs.docker.com/docker-for-mac/install/)<br/>
+Mac kullananlar [bu linkten](https://hub.docker.com/editions/community/docker-ce-desktop-mac/) uygulama olarak indirebilir.<br/>
+[Linux Referans](https://docs.docker.com/engine/install/ubuntu/)<br/>
+Linux kullananlar aşağıdaki komutlarla yükelyebilir<br/>
 
 `sudo apt-get remove docker docker-engine docker.io containerd runc`<br/>
-Not: bu kod hata verebilir sorun değil.<br/>
+Not: bu kod hata verebilir sorun değil<br/>
 `sudo apt-get update` <br/>
 `sudo apt-get install apt-transport-https curl gnupg-agentsoftware-properties-common`<br/>
 (Hata verirse: `sudo apt-get install --reinstall ca-certificates`) <br/>
@@ -50,5 +53,5 @@ Email ve şifre docker-compose.yml dosyasında:<br/>
 İleride şifre sormaması için save password'u seçebilirsiniz.
 <br/>
 
-Bu bilgileri girip kaydedin.<br/>
-Database soldaki servers tabında çıkacaktır.
+Bu bilgileri girip kaydedin<br/>
+Database soldaki servers tabında çıkacaktır
