@@ -19,20 +19,7 @@ eğer `sudo docker-compose up` çalışmazsa `Docker Yükleme` kısmından docke
 Mac kullananlar [bu linkten](https://hub.docker.com/editions/community/docker-ce-desktop-mac/) uygulama olarak indirebilir<br/>
 <br/>
 [Linux Referans](https://docs.docker.com/engine/install/ubuntu/)<br/>
-Linux kullananlar aşağıdaki komutlarla yükleyebilir<br/>
-
-`sudo apt-get remove docker docker-engine docker.io containerd runc`<br/>
-Not: bu kod hata verebilir sorun değil<br/>
-`sudo apt-get update` <br/>
-`sudo apt-get install apt-transport-https curl gnupg-agentsoftware-properties-common`<br/>
-(Hata verirse: `sudo apt-get install --reinstall ca-certificates`) <br/>
-`curl -fsSL -k https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -` <br/>
-`sudo apt-key fingerprint 0EBFCD88` <br/>
-`sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linuxubuntu $(lsb_release -cs) stable"`<br/>
-(Çalışmaza: `sudo add-apt-repository "deb [arch=amd64] https://download.dockercom/linux/ubuntu bionic stable"`) <br/>
-`sudo apt-get update` <br/>
-`sudo apt-get install docker-ce docker-ce-cli containerd.io` <br/>
-`sudo docker-compose up` <br/>
+Linux kullananlar `history.txt` dosyasındaki komutları kullanarak kurabilir.<br/>
 
 ## PgAdmin Hazırlığı
 
@@ -45,10 +32,9 @@ Email ve şifre docker-compose.yml dosyasında:<br/>
 
 İstediğiniz bir ismi verip Connection kısmına geçin <br/>
 
-*host: localhost (Çalışmazsa 127.0.0.1 veya 172.17.0.1)
+*host: pgsql-server
 <br/>
 *post: 5432<br/>
-*database username ve password docker-compose.yml dosyasında:<br/>
 *maintanence database: postgres<br/>
 *username: postgres<br/>
 *password: postgres<br/>
@@ -58,8 +44,4 @@ Email ve şifre docker-compose.yml dosyasında:<br/>
 <br/>
 
 Bu bilgileri girip kaydedin<br/>
-Database soldaki servers tabında çıkacaktır
-
-## Terminalden Ulaşım
-`sudo docker-compose up` ile container'ı çalıştırın <br/>
-`sudo docker exec -it db psql -U postgres -W postgres` komutu sizi psql shell'ine postgres kullanıcısı ile bağlayacaktır.
+Server soldaki servers tabında çıkacaktır
