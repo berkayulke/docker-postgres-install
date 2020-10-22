@@ -61,4 +61,5 @@ Bu bilgileri girip kaydedin<br/>
 Database soldaki servers tabında çıkacaktır
 
 ## Terminalden Ulaşım
+`sudo docker-compose up` ile container'ı çalıştırın <br/>
 `sudo docker exec -it db psql -U postgres -W postgres` komutu sizi psql shell'ine postgres kullanıcısı ile bağlayacaktır.
