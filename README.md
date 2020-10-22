@@ -2,8 +2,11 @@ Bu repoyu indirip terminalden reponun olduğu klasöre girin
 
 ## Docker Compose Yükleme
 
-[Referans1](https://docs.docker.com/compose/install/)<br/>
-[Referans2](https://linuxhint.com/postgresql_docker/)<br/>
+Mac kullanlar eğer makinelerinde docker yüklü ise docker compose da yüklü olacaktır<br/>
+eğer `sudo docker-compose up` çalışmazsa `Docker Yükleme` kısmından docker yükleyin<br/>
+
+[Linux Referans1](https://docs.docker.com/compose/install/)<br/>
+[Linux Referans2](https://linuxhint.com/postgresql_docker/)<br/>
 
 `sudo curl -L -k "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-\$(uname -m)" -o /usr/local/bin/docker-compose` <br/>
 `sudo chmod +x /usr/local/bin/docker-compose` <br/>
