@@ -14,6 +14,9 @@ Bu repoyu indirip terminalden reponun olduğu klasöre girin
 
 [Mac Referans](https://docs.docker.com/docker-for-mac/install/)<br/>
 Mac kullananlar [bu linkten](https://hub.docker.com/editions/community/docker-ce-desktop-mac/) uygulama olarak indirebilir.<br/>
+
+<br/>
+
 [Linux Referans](https://docs.docker.com/engine/install/ubuntu/)<br/>
 Linux kullananlar aşağıdaki komutlarla yükelyebilir<br/>
 
