@@ -13,7 +13,7 @@ Bu repoyu indirip terminalden reponun olduğu klasöre girin
 ## Docker Yükleme
 
 [Mac Referans](https://docs.docker.com/docker-for-mac/install/)<br/>
-Mac kullananlar [bu linkten](https://hub.docker.com/editions/community/docker-ce-desktop-mac/) uygulama olarak indirebilir.<br/>
+Mac kullananlar [bu linkten](https://hub.docker.com/editions/community/docker-ce-desktop-mac/) uygulama olarak indirebilir<br/>
 <br/>
 [Linux Referans](https://docs.docker.com/engine/install/ubuntu/)<br/>
 Linux kullananlar aşağıdaki komutlarla yükleyebilir<br/>
@@ -51,7 +51,7 @@ Email ve şifre docker-compose.yml dosyasında:<br/>
 *password: postgres<br/>
 
 <br/>
-İleride şifre sormaması için save password'u seçebilirsiniz.
+İleride şifre sormaması için save password'u seçebilirsiniz
 <br/>
 
 Bu bilgileri girip kaydedin<br/>
