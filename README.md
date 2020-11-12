@@ -41,3 +41,15 @@ Server soldaki servers tabında çıkacaktır
 Docker dosyasının olduğu klasöre terminalden girip <br/>
 `sudo docker-compose up` komutunu çalıştırın. <br/>
 Tarayıcıdan localhost:5051 'e gir <br/>
+
+### Terminalden Kmut girme
+Öncelikle bir terminal açık 
+```
+sudo docker-compose up
+```
+komutu ile sunucuyu arkada çalıştırın.
+
+Ardından başka bir terminalde aşağıdaki komut çalıştırmak sizi postgres kullanıcısı ile veritabanına bağlayacaktır.
+```
+sudo docker-compose run --rm db psql -h postgres -U postgres
+```
