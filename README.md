@@ -53,3 +53,5 @@ Ardından başka bir terminalde aşağıdaki komut çalıştırmak sizi postgres
 ```
 sudo docker-compose run --rm db psql -h postgres -U postgres
 ```
+Şifre: postgres
+
